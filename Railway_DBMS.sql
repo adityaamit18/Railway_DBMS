@@ -1,5 +1,4 @@
--- Instead of using a schema, we'll prefix table names with "railway_system_"
--- and remove the schema-related commands.
+
 
 DROP TABLE IF EXISTS railway_system_user_login;
 CREATE TABLE IF NOT EXISTS railway_system_user_login (
